@@ -420,9 +420,8 @@ class QRScanner:
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, 
                             (0, 255, 0) if self.sound_enabled else (0, 0, 255), 2)
                 
-               # Mostrar hora actual de Ecuador
-                ecuador_time = datetime.now(ZoneInfo("America/Guayaquil"))
-                current_time_str = ecuador_time.strftime('%H:%M:%S')
+                # Mostrar hora actual
+                current_time_str = datetime.now().strftime('%H:%M:%S')
                 cv2.putText(frame, current_time_str, (frame.shape[1] - 120, 60), 
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
                 

@@ -1,0 +1,68 @@
+2025-07-29 17:00:00,498 - INFO - Sistema de sonido inicializado
+2025-07-29 17:00:00,586 - ERROR - No se pudo abrir la cámara 1
+2025-07-29 17:01:44,602 - INFO - Sistema de sonido inicializado
+2025-07-29 17:01:47,359 - INFO - Cámara inicializada correctamente
+2025-07-29 17:07:48,199 - INFO - QR escaneado: 1
+2025-07-29 17:07:50,558 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:07:50,559 - INFO - Entrada registrada para empleado 1
+2025-07-29 17:07:51,210 - INFO - QR escaneado: 1
+2025-07-29 17:07:52,567 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:07:52,569 - INFO - Salida registrada para empleado 1
+2025-07-29 17:09:01,147 - INFO - QR escaneado: 2
+2025-07-29 17:09:02,633 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:09:02,634 - INFO - Entrada registrada para empleado 2
+2025-07-29 17:10:08,604 - INFO - QR escaneado: 2
+2025-07-29 17:10:09,895 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:10:09,896 - INFO - Salida registrada para empleado 2
+2025-07-29 17:10:27,115 - INFO - QR escaneado: 2
+2025-07-29 17:10:27,550 - INFO - QR ya completó entrada y salida hoy: 2
+2025-07-29 17:10:27,552 - WARNING - Error reproduciendo sonido warning: No file 'warning.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:10:35,291 - INFO - QR escaneado: 2
+2025-07-29 17:10:35,789 - INFO - QR ya completó entrada y salida hoy: 2
+2025-07-29 17:10:35,789 - WARNING - Error reproduciendo sonido warning: No file 'warning.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:10:36,407 - ERROR - Error en el bucle principal: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\objdetect\src\qrcode.cpp:2951: error: (-2:Unspecified error) in function 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl cv::ImplContour::decode(const class cv::_InputArray &,const class cv::_InputArray &,const class cv::_OutputArray &) const'
+> Invalid QR code source points (expected: 'contourArea(src_points) > 0.0'), where
+>     'contourArea(src_points)' is 0
+> must be greater than
+>     '0.0' is 0
+
+2025-07-29 17:10:37,055 - INFO - Cámara liberada.
+2025-07-29 17:10:37,144 - INFO - Mezclador Pygame liberado.
+2025-07-29 17:10:37,144 - INFO - Escáner cerrado correctamente
+2025-07-29 17:10:37,145 - INFO - Aplicación finalizada.
+2025-07-29 17:10:48,677 - INFO - Sistema de sonido inicializado
+2025-07-29 17:10:48,976 - INFO - Cámara inicializada correctamente
+2025-07-29 17:10:51,972 - INFO - QR escaneado: 2
+2025-07-29 17:10:52,462 - INFO - QR ya completó entrada y salida hoy: 2
+2025-07-29 17:10:52,463 - WARNING - Error reproduciendo sonido warning: No file 'warning.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:11:07,033 - INFO - QR escaneado: 1
+2025-07-29 17:11:07,575 - INFO - QR ya completó entrada y salida hoy: 1
+2025-07-29 17:11:07,576 - WARNING - Error reproduciendo sonido warning: No file 'warning.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:30:53,320 - INFO - Cámara liberada.
+2025-07-29 17:30:53,466 - INFO - Mezclador Pygame liberado.
+2025-07-29 17:30:53,466 - INFO - Escáner cerrado correctamente
+2025-07-29 17:30:53,468 - INFO - Aplicación finalizada.
+2025-07-29 17:45:17,456 - INFO - Sistema de sonido inicializado
+2025-07-29 17:45:17,821 - INFO - Cámara inicializada correctamente
+2025-07-29 17:45:24,351 - INFO - QR escaneado: 1
+2025-07-29 17:45:25,953 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:45:25,953 - INFO - Entrada registrada para empleado 1
+2025-07-29 17:45:35,718 - INFO - QR escaneado: 1
+2025-07-29 17:45:37,276 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\dagum\Desktop\proyecto_asistencia\scanner'.
+2025-07-29 17:45:37,278 - INFO - Salida registrada para empleado 1
+2025-07-29 17:46:34,476 - INFO - Cámara liberada.
+2025-07-29 17:46:34,535 - INFO - Mezclador Pygame liberado.
+2025-07-29 17:46:34,537 - INFO - Escáner cerrado correctamente
+2025-07-29 17:46:34,538 - INFO - Aplicación finalizada.
+2025-08-05 04:14:23,145 - INFO - Sistema de sonido inicializado
+2025-08-05 04:14:27,855 - INFO - Cámara inicializada correctamente
+2025-08-05 04:14:33,634 - INFO - QR escaneado: 1
+2025-08-05 04:14:35,650 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\Dagumo\Desktop\proyecto_asistencia\scanner'.
+2025-08-05 04:14:35,650 - INFO - Entrada registrada para empleado 1
+2025-08-05 04:20:45,113 - INFO - QR escaneado: 1
+2025-08-05 04:20:47,650 - WARNING - Error reproduciendo sonido success: No file 'success.wav' found in working directory 'C:\Users\Dagumo\Desktop\proyecto_asistencia\scanner'.
+2025-08-05 04:20:47,650 - INFO - Salida registrada para empleado 1
+2025-08-05 04:20:51,216 - INFO - Cámara liberada.
+2025-08-05 04:20:51,278 - INFO - Mezclador Pygame liberado.
+2025-08-05 04:20:51,278 - INFO - Escáner cerrado correctamente
+2025-08-05 04:20:51,279 - INFO - Aplicación finalizada.

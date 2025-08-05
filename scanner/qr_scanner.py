@@ -11,7 +11,7 @@ from dataclasses import dataclass
 
 # ============= CONFIGURACIÓN =============
 API_BASE_URL = "https://fastapi-production-b6bb.up.railway.app"  # URL actualizada
-CAMERA_INDEX = 0  # Índice de la cámara (0 para cámara principal)
+CAMERA_INDEX = 1  # Índice de la cámara (0 para cámara principal)
 
 # Configuración de sonidos (opcional)
 SOUND_SUCCESS = "success.wav"  # Archivo de sonido para éxito
@@ -420,8 +420,9 @@ class QRScanner:
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, 
                             (0, 255, 0) if self.sound_enabled else (0, 0, 255), 2)
                 
-                # Mostrar hora actual
-                current_time_str = datetime.now().strftime('%H:%M:%S')
+               # Mostrar hora actual de Ecuador
+                ecuador_time = datetime.now(ZoneInfo("America/Guayaquil"))
+                current_time_str = ecuador_time.strftime('%H:%M:%S')
                 cv2.putText(frame, current_time_str, (frame.shape[1] - 120, 60), 
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
                 
